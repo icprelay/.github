@@ -14,7 +14,7 @@ Many B2B SaaS products face the same problem:
 - Integrations are implemented as **custom projects**
 - Backlogs grow and engineering teams become bottlenecks
 
-ICP Relay converts these integrations from **projects into configurable products** 
+ICP Relay converts these integrations from **projects into configurable products**.
 
 ## Architecture overview
 ```
@@ -44,7 +44,7 @@ Each integration runs as a **customer-scoped integration** instance with its own
 
 ICP Relay is split into three repositories
 
-### icp-core
+### `icp-core`
 
 Core platform implementation.
 
@@ -57,7 +57,7 @@ Contains:
 
 This repository contains the **core runtime logic of the platform**.
 
-### icp-schemas
+### `icp-schemas`
 
 Versioned schemas used by the workflows.
 
@@ -68,7 +68,7 @@ Includes:
 
 This repository ensures **stable contracts between SaaS events and integrations**.
 
-## icp-deploy
+### `icp-deploy`
 
 Infrastructure and deployment automation for Azure DevOps
 
